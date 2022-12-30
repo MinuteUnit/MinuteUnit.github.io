@@ -7,7 +7,7 @@ function vibrateMorseCode() {
     const morseCode = '.. / -.- -. --- .-- / -.-- --- ..- .----. .-.. .-.. / -- .. ... ... / -- .';
   
     // convert the Morse code string into an array of durations
-    const durations = morseCode.split(' ').map(function(symbol) {
+    const durations = morseCode.split('').map(function(symbol) {
       if (symbol === '.') {
         return 100; // short vibration
       } else if (symbol === '-') {
