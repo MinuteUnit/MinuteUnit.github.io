@@ -1,6 +1,6 @@
 let missYou_btn = document.querySelector(".missYou_btn")
 
-missYou_btn.addEventListener("click", cycle)
+missYou_btn.addEventListener("click", vibrateMorseCode)
 
 function vibrateMorseCode() {
     // define the Morse code representation of the phrase
