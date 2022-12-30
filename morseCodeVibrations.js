@@ -1,6 +1,10 @@
-function vibrateMorseCode(phrase) {
+let missYou_btn = document.querySelector(".missYou_btn")
+
+missYou_btn.addEventListener("click", cycle)
+
+function vibrateMorseCode() {
     // define the Morse code representation of the phrase
-    const morseCode = '.. / -. .- --. .... - / - .... . .... - .... .- .... .- ..-. .. ... .... .- ..-. ..';
+    const morseCode = '.. / -.- -. --- .-- / -.-- --- ..- .----. .-.. .-.. / -- .. ... ... / -- .';
   
     // convert the Morse code string into an array of durations
     const durations = morseCode.split(' ').map(function(symbol) {
@@ -17,8 +21,4 @@ function vibrateMorseCode(phrase) {
   
     // vibrate the device using the array of durations
     navigator.vibrate(durations);
-  }
-  
-  // call the vibrateMorseCode function
-  vibrateMorseCode("I know you'll miss me");
-  
+}
