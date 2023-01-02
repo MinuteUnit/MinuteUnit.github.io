@@ -2,7 +2,7 @@ let missYou_btn = document.querySelector(".missYou_btn")
 
 missYou_btn.addEventListener("click", vibrateMorseCode)
 
-var phrase = prompt("Enter Your Phrase:")
+var phrase = prompt("Enter Your Phrase (no punctuation):")
 
 let morsePhrase = ""
 const alphabet = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-',
