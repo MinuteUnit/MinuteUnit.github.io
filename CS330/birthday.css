@@ -1,0 +1,30 @@
+.main {
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+button.submit {
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.submit:hover {
+    border-style: dotted;
+    border-color: purple;
+    color: purple;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+
+}
+
+body {
+    background-size: contain;
+    background: url(chicken.png) orange;
+}
