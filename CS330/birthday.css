@@ -20,11 +20,9 @@ button.submit {
 
 img {
     display: block;
-    margin: 0 auto;
-
+    margin: auto;
 }
 
 body {
-    background-size: contain;
     background: url(chicken.png) orange;
 }
