@@ -10,6 +10,8 @@ button.submit {
     border-radius: 10px;
     background-color: yellow;
     font-weight: bold;
+    display: block;
+    margin: auto;
 }
 
 .submit:hover {
